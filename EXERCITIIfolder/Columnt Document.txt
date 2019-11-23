@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Columns using inline-block</title>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      .column {
+        display: inline-block;
+        width: 20%;
+        height: 100%;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .green {
+        background-color: green;
+      }
+      .orange {
+        background-color: orange;
+      }
+      .purple {
+        background-color: purple;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="column red"></div><div class="column blue"></div><div class="column green"></div><div class="column orange"></div><div class="column purple"></div>
+  </body>
+</html>
+© 2019 GitHub, Inc.

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>CSS selector exercise</title>
+
+    <style>
+      body {
+        background-color: teal;
+      }
+      p {
+        font-size: 30px;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+      #highlight-borders .highlight {
+        border: 3px solid red;
+      }
+      #box1 {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin: 10px auto 30px auto;
+        padding: 10px;
+        border: 3px solid white;
+        text-align: center;
+        line-height: 100px;
+      }
+      #box2 {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <p>Lorem ipsum <span class="highlight">dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <span class="highlight">reprehenderit</span> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div id="highlight-borders">
+      <p>Lorem ipsum <span class="highlight">dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <span class="highlight">reprehenderit</span> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div id="box1">
+      hej
+    </div>
+
+    <div id="box2">
+    </div>
+
+  </body>
+</html>
+© 2019 GitHub, Inc.

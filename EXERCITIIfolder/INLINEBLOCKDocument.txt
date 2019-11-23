@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Inline block</title>
+
+    <style>
+      .box1 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      .box2 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="box1">Block 1</div><!--
+ --><div class="box2">Block 2</div>
+  </body>
+</html>

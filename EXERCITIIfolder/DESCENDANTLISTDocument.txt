@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>CSS selectors</title>
+    
+
+    <style>
+      ul {
+        color: blue;
+      }
+      ul ul {
+        color: red;
+      }
+      ul ul ul {
+        color: green;
+      }
+      .colors li:first-child {
+        color: red;
+      }
+      .colors li:last-child {
+        color: red;
+      }
+      .colors li:first-child ~ li {
+        font-size: 40px;
+      }
+      .colors li:first-child + li {
+        font-size: 10px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <ul>
+      <li>
+        A
+        <ul>
+          <li>
+            A
+            <ul>
+               <li>A</li>
+               <li>B</li>
+            </ul>
+          </li>
+          <li>B</li>
+        </ul>
+      </li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+
+    <ul class="colors">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>E</li>
+      <li>F</li>
+      <li>G</li>
+      <li>H</li>
+      <li>I</li>
+      <li>J</li>
+      <li>K</li>
+    </ul>
+  </body>
+</html>

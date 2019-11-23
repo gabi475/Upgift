@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Pseudo classes</title>
+
+    <style>
+      .highlight:hover {
+        background-color: yellow;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .nice-button {
+        border: none;
+        background-color: blue;
+        color: white;
+      }
+      .nice-button:hover {
+        color: red;
+      }
+      .nice-button:active {
+        background-color: black;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <div>
+      <h2>Highlight</h2>
+      Hej hej
+      <span class="highlight">Hello, world!</span>
+      Hej hej
+    </div>
+
+    <hr>
+
+    <div>
+      <h2>Button</h2>
+      <button class="nice-button">Click me!</button>
+    </div>
+
+    <div>
+      <h2>Link</h2>
+      <a href="https://www.google.com">Google</a>
+    </div>
+  </body>
+</html>

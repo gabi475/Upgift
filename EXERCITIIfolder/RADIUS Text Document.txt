@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Border radius</title>
+    
+  </head>
+
+  <style>
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: teal;
+      margin: 50px;
+      border-radius: 50%;
+    }
+  </style>
+
+  <body>
+    <div class="circle"></div>
+  </body>
+</html>
