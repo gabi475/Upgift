@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>
+      Flag
+    </title>
+
+    <style>
+    div{
+      width: 500px;
+      height: 300px;
+      border-left:5%;
+      border-top:5%;
+      border:1px solid grey;
+        background-color: blue;
+    }
+    div:after{
+      content:"";
+      background_color:yellow;
+      width:100%;
+      position:absolute;
+      top:50%;
+      margin-top:-15px;
+      transition:transform 3s ease-in -out;
+    }
+    dic:before{
+      content:"";
+      background_color:yellow;
+      width:30%;
+      height:100%;
+      position:absolute;
+      left:25%;
+      transition:transform  3s ease-in -out;
+    }
+    div:hover{
+      background-color:red;
+    }
+    div:hover::after{
+      background-color:white;
+    }
+    div:hover::before{
+      background-color:white;
+    }
+    div, div::after,div::before{
+      transition:background-color 3s ease-in-out;
+    }
+    </style>
+    </head>
+        <body>
+      <div></div>
+        </body>
+          </html>

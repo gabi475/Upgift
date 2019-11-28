@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSS Flags</title>
+
+    <style>
+      .ja {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: #fff;
+      }
+      .ja::before {
+        content: "";
+        background-color: red;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      .se {
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: #5757ff;
+        position: relative;
+      }
+      .se::before {
+        content: "";
+        display: block;
+        height: 200px;
+        width: 40px;
+        background-color: yellow;
+        position: absolute;
+        left: 80px;
+      }
+      .se::after {
+        content: "";
+        display: block;
+        height: 40px;
+        width: 300px;
+        position: absolute;
+        background-color: yellow;
+        top: 80px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>CSS flags</h1>
+    <p>Flags using only CSS!</p>
+
+    <p>Japan</p>
+    <div class="ja"></div>
+
+    <p>Sweden</p>
+    <div class="se"></div>
+  </body>
+</html>

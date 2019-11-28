@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      Pseudo elements
+    </title>
+
+    <style>
+      body {
+        padding: 50px;
+      }
+      .box-with-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        background-color: maroon;
+      }
+      .box-with-circle::before {
+        display: block;
+        content: "";
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        border-radius: 50%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-with-circle">
+      Hej
+    </div>
+  </body>
+</html>

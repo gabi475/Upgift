@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Transform example</title>
+
+    <style>
+      body {
+        padding: 50px;
+      }
+      p {
+        margin: 100px 0;
+      }
+      .rotate {
+        transform: rotate(45deg);
+      }
+      .scale:hover {
+        transform: scale(1.5);
+      }
+
+      .translate {
+        transform: translate(50%, 0);
+      }
+      .rotate3d {
+        transition: transform 1s linear;
+      }
+      .rotate3d:hover {
+        transform: rotate3d(1, 1, 0, 180deg);
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <p>
+      <img class="rotate" src="bird.png" alt="A bird">
+    </p>
+
+    <p>
+      <img class="scale" src="bird.png" alt="A bird">
+    </p>
+
+    <p>
+      <img class="translate" src="bird.png" alt="A bird">
+    </p>
+
+    <p>
+      <img class="rotate3d" src="bird.png" alt="A bird">
+    </p>
+
+  </body>
+</html>

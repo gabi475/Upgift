@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link
+      rel="icon"
+      href="C:\Workspace\HTML_CSS\Bilder\icon\google-glasses.png"
+    />
+    <link rel="stylesheet" href="StreamingService.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster|Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+
+<style >
+
+</style>
+  body {
+  height: 100%;
+}
+body {
+  flex-direction: column;
+  margin: 0;
+  background-color: #152731;
+}
+header {
+  height: 82px;
+  background-color: #37444b;
+  margin: 5px;
+  text-align: center;
+  /*border-radius: 15px;*/
+}
+header h1 {
+  margin: 0;
+  vertical-align: middle;
+  line-height: 82px;
+  color: #c14747;
+  font-family: "Lobster", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.menu {
+  height: 50px;
+  background-color: #152731;
+}
+.menu p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.menu a {
+  text-decoration: none;
+  color: #d4a574;
+  padding: 10px 15px;
+  margin: 7px;
+  background-color: #37444b;
+  border-radius: 20px;
+  -webkit-transition: background-color ease-out 1s;
+  -moz-transition: background-color ease-out 1s;
+  -o-transition: background-color ease-out 1s;
+  transition: background-color ease-out 1s;
+}
+.menu a:hover {
+  background-color: #152731;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 8px;
+  background-color: #37444b;
+  margin: 5px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.item {
+  margin: 5px;
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+
+.item > img {
+  display: block;
+  width: 100%;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+@media (max-width: 700px) {
+  header a {
+    display: none;
+  }
+  .bigTitle {
+    display: none;
+  }
+  .smallTitle {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 700px) {
+  .smallTitle {
+    display: none;
+  }
+  .bigTitle {
+    display: inline-block;
+    text-align: center;
+  }
+
+
+
+    <header>
+
+      <h1 class="bigTitle">MovieTime</h1>
+      <h1 class="smallTitle">Movie</h1>
+      <div class="menu">
+        <p>
+          <a href="StreamingService.html">Movies</a>
+          <a href="Series.html">Series</a>
+          <a href="Top10.html">Top 10</a>
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="flexContainer">
+        <div class="item">
+          <img src="avengersEndgame.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="captainmarvel.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="deadpool.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="interstellar.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="MazeRunner.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="Maleficent.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="grownUps.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="deadPoetsSociety.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="backtotheFuture.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="avatar.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="ShutterIsland.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="spiderman_farFromHome.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="Up.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="weddingCrashers.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="HP.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="hungergames.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

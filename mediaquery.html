@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Media Queries</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+  body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #6A1384;
+  color: #FFF;
+  text-align: center;
+}
+
+header > div {
+  padding: 20px;
+  font-size: 50px;
+}
+
+header .small-title {
+  display: none;
+}
+
+header .bigger-title {
+  display: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #eaeaea;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 10px;
+  color: #000;
+}
+  <header>
+    <div class="bigger-title">Company Title Incorporated</div>
+    <div class="big-title">Company Title Inc.</div>
+    <div class="small-title">Company</div>
+  </header>
+  <div class="sidebar">
+    <ul>
+      <li>Home</li>
+      <li>Profile</li>
+      <li>About Company</li>
+      <li>Log in</li>
+      <li>Register</li>
+    </ul>
+  </div>
+</body>
+</html>
